@@ -4,19 +4,19 @@
 }
 
 body {
-  background-color: rgb(236, 196, 195);
+  background-color: rgb(96, 165, 185);
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 120px;
+  height: 100px;
   width: 90%;
   margin-left: 5%;
 }
 header h1{
-  color: #3a2315;
+  color: #111147;
   font-size: 50px;
 }
 
@@ -32,12 +32,8 @@ header ul li {
 
 header ul a{
   text-decoration: none;
-  color: #3a2315;
+  color: #111147;
   font-size: 20px;
-}
-
-header ul a:hover{
-  color: #aa9486;
 }
 
 
@@ -45,13 +41,6 @@ img {
   width: 38%;
   height: 32%;
   border-radius: 30%;
-}
-
-header .logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: -20px;
 }
 
 .principal {
@@ -68,13 +57,13 @@ header .logo {
 }
 
 .principal h1{
-  color: #3a2315;
+  color: #111147;
   margin: 10px 0;
   font-size: 60px;
 }
 
 button{
-  background-color: #3a2315;
+  background-color: #111147;
   color: #fff;
   padding: 15px 35px;
   cursor: pointer;
@@ -110,7 +99,7 @@ button{
 }
 
 .trabalhos ul i {
-  color: #915a39;
+  color: #111147;
   font-size: 20px;
   margin-right: 10px;
 }
@@ -121,31 +110,25 @@ button{
   font-weight: bold;
 }
 
-.trabalhos pre{
-  font-size: 14px;
-  margin: 5px 0;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-}
-
-.trabalhos pre i{
-  color: rgb(75, 173, 75);
-  font-size: 20px;
-  margin-right: 5px;
-}
 .comentarios {
   display: flex;
   margin-top: 15%;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
+
 }
 
 .comentario img {
-  width: 300px;
-  height: 300px;
-  border-radius: 8px;
+  width: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.comentario {
+  display: flex;
+  background-color: rgb(144, 172, 184);
+  width: 40%;
+  border-radius: 8PX;
+  padding: 10PX;
+  margin: auto;
 }
 
 .comentario p {
@@ -163,7 +146,7 @@ a img {
 }
 
 footer {
-  background-color: #130601;
+  background-color: #000010;
   height: 200px;
   display: flex;
   color: #fff;
@@ -171,11 +154,8 @@ footer {
   padding: 30px 0;
 }
 
-footer img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-left: 20%;
+footer h2 {
+  font-size: 40px;
 }
 
 footer p {
@@ -206,6 +186,9 @@ footer .sociais ul li{
 }
 .principal h1{
   font-size: 40px;
+}
+footer h2 {
+  font-size: 30px;
 }
 
 footer p {
@@ -248,10 +231,6 @@ footer .sociais ul {
     text-align: center;
   }
 
-  .trabalhos pre{
-    display: block;
-  }
-
   .trabalhos ul{
     margin: 0 0 0 25%;
   }
@@ -266,6 +245,16 @@ footer .sociais ul {
   }
 
 
+  .comentarios {
+    display: block;
+   
+  }
+
+  .comentario {
+    width: 80%;
+    margin-top: 30px;
+  }
+
  a img {
    margin-left: 80%;
  }
@@ -279,8 +268,8 @@ footer .sociais ul {
     text-align: center;
   }
 
-  footer img {
-    margin: 0;
+  footer h2 {
+    font-size: 50px;
   }
 
   footer h4 {
@@ -307,24 +296,5 @@ footer .sociais ul {
   header ul {
    display: flex;
    justify-content: space-around;
-  }
-
-  header ul a{
-    display: flex;
-    font-size: 15px;
-    justify-content: space-around;
-   }
-
-  header .logo {
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-    border-radius: 50%;
-    margin-bottom: -20px;
-  }
-
-  a img {
-    margin-top: 20px;
-    width: 50px;
   }
 }
