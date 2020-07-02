@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(96, 165, 185);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 90%;
+  margin-left: 5%;
+}
+header h1{
+  color: #111147;
+  font-size: 50px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  margin: 20px;
+  list-style: none;
+}
+
+header ul a{
+  text-decoration: none;
+  color: #111147;
+  font-size: 20px;
+}
+
+
+img {
+  width: 38%;
+  height: 32%;
+  border-radius: 30%;
+}
+
+.principal {
+  width: 80%;
+  margin: auto;
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.principal p{
+  font-weight: bold;
+}
+
+.principal h1{
+  color: #111147;
+  margin: 10px 0;
+  font-size: 60px;
+}
+
+button{
+  background-color: #111147;
+  color: #fff;
+  padding: 15px 35px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.trabalhos {
+  width: 80%;
+  margin: auto;
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.trabalhos img{
+  margin-top: -5%;
+  
+}
+
+.trabalhos .hide{
+  display: none;
+  
+}
+.trabalhos ul li{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 16px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.trabalhos ul i {
+  color: #111147;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.trabalhos p{
+  font-size: 18px;
+  margin: 40px 0 10px 0;
+  font-weight: bold;
+}
+
+.comentarios {
+  display: flex;
+  margin-top: 15%;
+
+}
+
+.comentario img {
+  width: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+
+.comentario {
+  display: flex;
+  background-color: rgb(144, 172, 184);
+  width: 40%;
+  border-radius: 8PX;
+  padding: 10PX;
+  margin: auto;
+}
+
+.comentario p {
+  font-size: 12px;
+}
+
+.comentario h3 {
+  margin: 5px 0;
+}
+
+a img {
+  margin-top: 8%;
+  width: 70px;
+  margin-left: 90%;
+}
+
+footer {
+  background-color: #000010;
+  height: 200px;
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+footer h2 {
+  font-size: 40px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer h4 {
+  font-size: 18px;
+}
+
+footer .sociais ul {
+  display: flex;
+  align-items: center;
+}
+
+footer .sociais ul li{
+  margin: 10px;
+  list-style: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+ .principal {
+  width: 100%;
+}
+.trabalhos {
+  width: 100%;
+}
+.principal h1{
+  font-size: 40px;
+}
+footer h2 {
+  font-size: 30px;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+footer h4 {
+  font-size: 16px;
+}
+
+footer .sociais ul {
+  display: flex;
+  align-items: center;
+}
+}
+@media only screen and (max-width: 650px) {
+
+  button {
+    width: 60%;
+  }
+
+  img {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+
+  .principal {
+    display: block;
+    text-align: center;
+  }
+  
+
+  .principal h1{
+    font-size: 50px;
+  }
+
+  .trabalhos {
+    display: block;
+    text-align: center;
+  }
+
+  .trabalhos ul{
+    margin: 0 0 0 25%;
+  }
+
+  .trabalhos .show{
+    display: none;
+  }
+
+  .trabalhos .hide{
+    display: block;
+    margin-left: 15%;
+  }
+
+
+  .comentarios {
+    display: block;
+   
+  }
+
+  .comentario {
+    width: 80%;
+    margin-top: 30px;
+  }
+
+ a img {
+   margin-left: 80%;
+ }
+
+  footer {
+    display: block;
+    height: 280%;
+  }
+
+  footer .coda {
+    text-align: center;
+  }
+
+  footer h2 {
+    font-size: 50px;
+  }
+
+  footer h4 {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  footer .sobre, .contato, .sociais {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+ 
+ }
+ 
+ @media only screen and (max-width: 500px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  header ul {
+   display: flex;
+   justify-content: space-around;
+  }
+}
