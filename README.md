@@ -4,10 +4,8 @@
 Site de uma empresa que desenvolve sites	Site de uma empresa que desenvolve sites.
 
 
-desafio do site 	### desafio do site:
-<a href="https://devchallenge.now.sh/"> 	[DevChallenge](https://devchallenge.now.sh/)
-Criado por >DevChallenge</a>	
-
+### desafio do site:
+[DevChallenge](https://devchallenge.now.sh/)
 ### Techs:
 
 - HTML
